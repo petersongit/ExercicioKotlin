@@ -45,9 +45,11 @@ fun imprimirCemNumerosPositivosImpares(){
 
 //Questão: 05
 fun maior(numA: Int, numB: Int, numC: Int, numD: Int) :Boolean {
-    if ((numA > numC) && (numA > numD)) || ((numB > numC) && (numB > numD)){
+    /*if (((numA > numC) && (numA > numD)) || ((numB > numC) && (numB > numD))){
         return true
-    }
+    }*/
+    
+    return (((numA > numC) && (numA > numD)) || ((numB > numC) && (numB > numD)))
 }
 
 //Questão: 06
