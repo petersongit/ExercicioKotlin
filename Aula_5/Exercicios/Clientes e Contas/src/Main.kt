@@ -5,4 +5,7 @@ fun main(){
     println(cliente)
     println(conta)
 
+    conta.deposito(15.0)
+    conta.saque(150.0)
+
 }

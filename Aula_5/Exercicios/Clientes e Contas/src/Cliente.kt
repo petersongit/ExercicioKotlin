@@ -5,7 +5,8 @@ class Cliente(val nome: String, val sobreNome: String) {
     }
 
     override fun toString(): String {
-        return "Cliente {Nome: $nome, SobreNome: $sobreNome}"
+        return "Cliente(nome='$nome', sobreNome='$sobreNome')"
     }
+
 
 }
